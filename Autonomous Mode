@@ -1,1 +1,9 @@
-opMode(true)
+#pragma config(Hubs,  S1, HTMotor,  HTServo,  none,     none)
+#pragma config(Motor,  mtr_S1_C1_1,     ,              tmotorNone, openLoop)
+#pragma config(Motor,  mtr_S1_C1_2,     ,              tmotorNone, openLoop)
+#pragma config(Motor,  mtr_S1_C1_3,     ,              tmotorNone, openLoop)
+#pragma config(Motor,  mtr_S1_C1_4,     ,              tmotorNone, openLoop)
+void initializeRobot()
+{
+return;
+}
